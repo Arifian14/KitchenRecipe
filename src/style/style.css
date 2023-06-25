@@ -1,0 +1,64 @@
+@import 'popup.css';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: sans-serif;
+}
+ 
+main {
+  width: 100%;
+}
+
+.home-container img {
+  width: 100%;
+  display: block;
+  height: 500px;
+  filter: brightness(70%);
+}
+
+.home-container h2 {
+  text-align: center;
+  position: relative;
+  margin-top: -18rem;
+  color: rgb(237, 236, 236);
+  font-size: 30px;
+  filter: brightness(98%);
+}
+
+.home-container h3 {
+  text-align: center;
+  position: relative;
+  color: rgb(255, 236, 219);
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 10px;
+  filter: brightness(95%);
+}
+ 
+meal-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 32px;
+  width: 100%;
+  padding: 16px;
+  gap: 2rem;
+  justify-content: center;
+}
+
+footer {
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(206, 113, 0);
+  color: white;
+}
+
+footer h2 {
+  font-size: 17px;
+  font-weight: 400;
+}
