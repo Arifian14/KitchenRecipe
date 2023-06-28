@@ -13,12 +13,14 @@ class NavBar extends HTMLElement {
       <style>
         :host {
           width: 100%;
+          position: fixed;
           background-color: rgb(206, 113, 0);
           color: white;
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
           display: flex;
           justify-content: space-between;
           align-items: center;
+          z-index: 99;
         }
             
         :host h2 {

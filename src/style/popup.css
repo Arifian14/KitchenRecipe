@@ -9,11 +9,12 @@
 
 .pop-up {
     width: clamp(200px, 92vw, 900px);
-    max-height: 95vh;
+    max-height: 650px;
     box-shadow: 0 0 .5rem gray;
     background-color: rgb(247, 247, 247);
     color: black;
     padding: 30px 30px;
+    margin-top: 20px;
     border-radius: 1rem;
     overflow: hidden;
     position: relative;

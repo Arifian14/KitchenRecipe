@@ -21,7 +21,6 @@ class SearchBar extends HTMLElement {
     this.shadowDOM.innerHTML = `
       <style>
         .search-container {
-          height: 300px;
           text-align: center;
           position: sticky;
           background-color: white;
@@ -29,6 +28,7 @@ class SearchBar extends HTMLElement {
           flex-direction: column;
           justify-content: center;
           margin-top: 15rem;
+          margin-bottom: 1.5rem;
         }
               
         .search-container h2 {
